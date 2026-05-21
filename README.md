@@ -6,7 +6,7 @@
 ![in Volt](https://img.shields.io/badge/20A-2~4S-cyan)
 
 
-#Specification
+# Specification
 Firmwire: AlkaMotor32(AM32)
 ESC: 4in1
 MCU: Artery AT32F421 120MHz(QFN24)
