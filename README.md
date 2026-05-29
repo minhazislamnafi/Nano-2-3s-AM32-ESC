@@ -8,27 +8,27 @@
 
 # Specification
 
-Firmwire: AlkaMotor32(AM32) 
+*Firmwire: AlkaMotor32(AM32) 
 
-ESC: 4in1
+*ESC: 4in1
 
-MCU: Artery AT32F421 120MHz(QFN24)
+*MCU: Artery AT32F421 120MHz(QFN24)
 
-Mosfet: AONR36366
+*Mosfet: AONR36366
 
-Gate Driver: DRV8300DRGER(QFN24)
+*Gate Driver: DRV8300DRGER(QFN24)
 
-Input voltage: 2-4s (7.4-16.8v)
+*Input voltage: 2-4s (7.4-16.8v)
 
-Output current: ~20A (25A brust for 5s)
+*Output current: ~20A (25A brust for 5s)
 
-mounting size: 25mm*25mm
+*mounting size: 25mm*25mm
 
-mounting pattern: angled/+
+*mounting pattern: angled/+
 
-MCU 3.3V? : Onboard buck converter(MP2451DT)
+*MCU 3.3V? : Onboard buck converter(MP2451DT)
 
-Current sensing: INA180A with 1mOhm Shunt
+*Current sensing: INA180A with 1mOhm Shunt
 
 
 
@@ -38,5 +38,10 @@ Nano ESC is an open-source ESC hardware design provided by the Alka_Motor_32 pro
 # Documentations
 In this repository, you can find the Schematics, Gerber file, pick and place(if you plan to use PCBA from PCB manufacturer), and all the components you need(aka BOM) files, along with all the steps to build your own 4-in-1 20A ESC. Also, if you want to make a full custom 3s 3ich drone with this ESC then checkout [HACK-FLY-32](https://github.com/minhazislamnafi/HACK-FLY-32).
 
+# Quick Start
+
+## Requirements
+
+## Hardware:
 
 
