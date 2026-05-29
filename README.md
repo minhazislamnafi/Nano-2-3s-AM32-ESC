@@ -8,27 +8,27 @@
 
 # Specification
 
-*Firmwire: AlkaMotor32(AM32) 
+* Firmwire: AlkaMotor32(AM32) 
 
-*ESC: 4in1
+* ESC: 4in1
 
-*MCU: Artery AT32F421 120MHz(QFN24)
+* MCU: Artery AT32F421 120MHz(QFN28)
 
-*Mosfet: AONR36366
+* Mosfet: AONR36366
 
-*Gate Driver: DRV8300DRGER(QFN24)
+* Gate Driver: DRV8300DRGER(QFN24)
 
-*Input voltage: 2-4s (7.4-16.8v)
+* Input voltage: 2-4s (7.4-16.8v)
 
-*Output current: ~20A (25A brust for 5s)
+* Output current: ~20A (25A brust for 5s)
 
-*mounting size: 25mm*25mm
+* mounting size: 25mm*25mm
 
-*mounting pattern: angled/+
+* mounting pattern: angled/+
 
-*MCU 3.3V? : Onboard buck converter(MP2451DT)
+* MCU 3.3V? : Onboard buck converter(MP2451DT)
 
-*Current sensing: INA180A with 1mOhm Shunt
+* Current sensing: INA180A with 1mOhm Shunt
 
 
 
@@ -42,6 +42,15 @@ In this repository, you can find the Schematics, Gerber file, pick and place(if 
 
 ## Requirements
 
-## Hardware:
+## Components:
+
+* MCU: Artery AT32F421G8U7 120MHz QFN-28 (4 pcs) [link](https://s.click.aliexpress.com/e/_c4PMPWk9)
+* Mosfet: AONR36366 QFN-8 package (24 pcs) [link](https://s.click.aliexpress.com/e/_c3cixcnL)
+* Gate driver: DRV8300DRGER QFN-24 (4 pcs) [link](https://s.click.aliexpress.com/e/_c3NqUJhL)
+* 3.3v buck: Mp1584EN soic-8 [link](https://s.click.aliexpress.com/e/_c3PCEJ6N) (recommended to buy a buck module and harvest all the necessary components, rather than buying the inductor, resistor, and diodes separately)
+* current sense: INA180IDBVR [link](https://s.click.aliexpress.com/e/_c3yf2AqD)
+* Shunt: 2512 3W R001 1MR [Link](https://www.aliexpress.com/item/1005010000851939.html?)
+
+
 
 
