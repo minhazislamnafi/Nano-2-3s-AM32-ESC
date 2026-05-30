@@ -69,6 +69,20 @@ Or if you just want to build your own PCB, then follow this [SCHEMATICS](https:/
 ## PCB render
 <img width="2400" height="1167" alt="ESC bg-Photoroom" src="https://github.com/user-attachments/assets/d0983aa1-ba67-49ca-bbfa-9ce00b8f2a9c" />
 
+## FOLLOW THESE STEPS ##
+
+**1. Spend some money $$ to buy the parts mentioned in [BOM](https://github.com/minhazislamnafi/Nano-2-4s-AM32-ESC/blob/main/BOM.csv).**
+
+**2. Order the Nano ESC PCB using this [GERBER file](https://github.com/minhazislamnafi/Nano-2-4s-AM32-ESC/blob/main/PCB/Gerber_PCB_Nano-2-3s-AM32-ESC_r1.zip).**
+
+**3. Solder the SMD components of the PCB by hand ;) Or just order the PCBs with PCBA services, btw it will cost a lot.**
+
+**4. solder 18 AWG wire with xt30 connector.**
+
+**5. Check with multimeter- Is mcu getting 3.3v or not, if not diagnose by yourself :)**
+
+**5. Flash each mcu with AM32 firmware using Stlink v2 programer ( I will add every step in details, once I have built IRL:)**
+
 
 
 
